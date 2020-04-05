@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package unique-identifier="id" version="3.0" xmlns="http://www.idpf.org/2007/opf" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="id">MalgrandaFrato</dc:identifier>
+    <dc:title>Malgranda frato</dc:title>
+    <dc:creator file-as="Doctorow, Cory">Cory Doctorow</dc:creator>
+    <dc:language>eo</dc:language>
+  </metadata>
+  <manifest>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="style" href="style/style.css" media-type="text/css"/>
+    <item id="chapter_01" href="chapter_01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_02" href="chapter_02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_03" href="chapter_03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_04" href="chapter_04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_05" href="chapter_05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_06" href="chapter_06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_07" href="chapter_07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_08" href="chapter_08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_09" href="chapter_09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_10" href="chapter_10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_11" href="chapter_11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_12" href="chapter_12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_13" href="chapter_13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_14" href="chapter_14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_15" href="chapter_15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_16" href="chapter_16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_17" href="chapter_17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_18" href="chapter_18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_19" href="chapter_19.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="cover" properties="page-spread-right"/>
+    <itemref idref="nav" linear="no"/>
+    <itemref idref="chapter_01" properties="page-spread-right"/>
+    <itemref idref="chapter_02"/>
+    <itemref idref="chapter_03"/>
+    <itemref idref="chapter_04"/>
+    <itemref idref="chapter_05"/>
+    <itemref idref="chapter_06"/>
+    <itemref idref="chapter_07"/>
+    <itemref idref="chapter_08"/>
+    <itemref idref="chapter_09"/>
+    <itemref idref="chapter_10"/>
+    <itemref idref="chapter_11"/>
+    <itemref idref="chapter_12"/>
+    <itemref idref="chapter_13"/>
+    <itemref idref="chapter_14"/>
+    <itemref idref="chapter_15"/>
+    <itemref idref="chapter_16"/>
+    <itemref idref="chapter_17"/>
+    <itemref idref="chapter_18"/>
+    <itemref idref="chapter_19"/>
+  </spine>
+</package>

@@ -1,0 +1,93 @@
+body {
+  font-family: "Garamond", serif;
+}
+
+.perfect-center {
+  margin: 50vh 0 0 0;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.cover {
+  text-align: center;
+}
+.cover ul li {
+  list-style-type: none;
+}
+.cover p {
+  text-align: center;
+  margin: 0.5em 0;
+}
+.cover .title {
+  text-transform: uppercase;
+  font-size: 300%;
+  font-weight: normal;
+}
+.cover .author {
+  text-transform: uppercase;
+  font-size: 150%;
+}
+
+nav p {
+  text-align: center;
+}
+nav li {
+  margin: 0.3em 0;
+}
+nav > ol {
+  font-size: smaller;
+}
+nav > ol > li {
+  margin-bottom: 1em;
+}
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.part {
+}
+.part header h1 {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 2em;
+}
+.part p {
+  display: block;
+  margin: 0 0 1em 0;
+  /* text-indent: 2em; */
+  line-height: 125%;
+  text-align: justify;
+}
+
+.chapter {
+  page-break-after: auto;
+  margin-bottom: 2em;
+}
+.chapter > h2 {
+  page-break-after: avoid;
+  font-family: sans-serif;
+}
+.chapter > h3 {
+  font-style: italic;
+  font-weight: normal;
+}
+.chapter hr {
+  background-color: inherit;
+  border-width: 0;
+  margin: 1em 0;
+}
+
+.steletoj {
+    text-align: center;
+}
+.cit {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.letero {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: italic;
+}
