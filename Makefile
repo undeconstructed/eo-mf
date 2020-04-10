@@ -1,5 +1,5 @@
 build: clean
-	zip -r mf.epub EPUB META-INF mimetype
+	zip -r -n mimetype mf.epub mimetype META-INF EPUB
 
 clean:
 	-rm mf.epub
