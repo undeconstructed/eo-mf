@@ -29,6 +29,9 @@
     <item id="chapter_17" href="chapter_17.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter_18" href="chapter_18.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter_19" href="chapter_19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_20" href="chapter_20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_21" href="chapter_21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="epilogue" href="epilogue.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine>
     <itemref idref="cover" properties="page-spread-right"/>
@@ -52,5 +55,8 @@
     <itemref idref="chapter_17"/>
     <itemref idref="chapter_18"/>
     <itemref idref="chapter_19"/>
+    <itemref idref="chapter_20"/>
+    <itemref idref="chapter_21"/>
+    <itemref idref="epilogue"/>
   </spine>
 </package>
